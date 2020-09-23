@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Noto+Serif:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+
+body{
+    font-family: "Bebas Neue";
+}
+
+.navbarrow{
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    height: 100px;
+}
+
+.navstyle{
+    background-color: #E85D04;
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+
+
+.firstcontent{
+    font-family: "Bebas Neue";
+}
+
+.firstcontent p{
+    font-size: 20px;
+}
+
+.contactimg img{
+    width: 100%;
+    height: auto;
+    border: 5px solid #FAA307;
+    border-radius: 15px;
+}
+
+.whitecircle img{
+    height: 50px;
+    width: auto;
+}
+
+.whitecircle{
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.contacttext{
+    color: #F5A614;
+    font-family: "Bebas Neue";
+}
+
+.firstcontent{
+    animation: expand 1s;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    font-family: "Roboto slab";
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px #F5A614;
+  }
+
+.card h4, p{
+    text-align: center;
+}
+
+.card p{
+    font-family: "Roboto slab";
+    font-size: 15px;
+}
+
+.information{
+    color:  #F5A614;
+    font-family: "Roboto slab";
+}
+
+.footer{
+    text-align: left;
+    line-height: 200%;
+    font-family: "Bebas Neue";
+}
+
+.footer h4{
+    font-size: 25px;
+    font-family: "Bebas Neue";
+}
+
+.footer p{
+    font-family: "Roboto slab";
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: "Roboto slab";
+    font-size: 10px;
+    color: white;
+    line-height: 220%;
+
+}
+
+.footer a:hover{
+    color: #F5A614;
+}
+
+.footer img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.footer img:hover{
+    box-shadow: 0 8px 16px #F5A614;
+}
+
+.whitecircle{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.whitecircle:hover{
+    box-shadow: 0 8px 16px #F5A614;
+}
+
+.productheading{
+    text-align: center;
+    color: #F5A614;
+}
+
+.sponsor{
+    width: 200px;
+}
+
+.Catagories{
+    color: #F5A614;
+}
+
+.Catagories h2{
+    text-align: center;
+}
+
+.hoverfeatures {
+    background-color: White;
+    border: 2px solid #F5A614;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.hoverfeatures img{
+    width: 200px;
+    height: 200px;
+}
+
+.hoverfeatures a{
+    text-decoration: none;
+    color: black;
+}
+
+.hoverfeatures a:hover{
+    color: #F5A614;
+}
+
+.hoverfeatures:hover{
+    box-shadow: 0 8px 16px #F5A614;
+}
+
+.emailform{
+    color: #F5A614;
+    text-align: center;
+}
+
+
+
+/* Animation */
+
+@keyframes expand {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+}
