@@ -193,6 +193,24 @@ body{
     text-align: left;
 }
 
+.powerrating {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+.powerbar {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .turbopower {width: 90%; background-color: #E85D04; border-radius: 10px;}
+  .turbohandling {width: 80%; background: #E85D04; border-radius: 10px;}
+  .turbobrake {width: 50%; background: #E85D04; border-radius: 10px;}
+
 
 /* Animation */
 
