@@ -12,7 +12,7 @@ body{
 }
 
 .navstyle{
-    background-color: #E85D04;
+    background-color: #39ff13;
     text-decoration: none;
     font-family: "Bebas Neue";
     font-size: 20px;
@@ -97,6 +97,10 @@ body{
     text-align: left;
 }
 
+.a:hover{
+    color: #39ff13;
+}
+
 .footer a{
     text-decoration: none;
     font-family: "Roboto slab";
@@ -136,7 +140,7 @@ body{
 }
 
 .Catagories{
-    color: #F5A614;
+    color: #9cff00;
 }
 
 .Catagories h2{
@@ -144,8 +148,8 @@ body{
 }
 
 .hoverfeatures {
-    background-color: White;
-    border: 2px solid #F5A614;
+    background-color: white;
+    border: 2px solid #39ff13;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     width: 250px;
@@ -164,11 +168,11 @@ body{
 }
 
 .hoverfeatures a:hover{
-    color: #F5A614;
+    color: #39ff13;
 }
 
 .hoverfeatures:hover{
-    box-shadow: 0 8px 16px #F5A614;
+    box-shadow: 0 8px 16px #39ff13;
 }
 
 .emailform{
